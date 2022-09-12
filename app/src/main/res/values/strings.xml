@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">UFood</string>
+    <string name="Background">background_intro</string>
+    <string name="unesco_logo">Unesco-Logo</string>
+    <string name="foodOffer">Offer Food</string>
+    <string name="FindFreeFood">Search Food</string>
+</resources>
