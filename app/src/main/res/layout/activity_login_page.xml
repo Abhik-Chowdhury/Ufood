@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Login_page">
+
+    <View
+        android:id="@+id/view1"
+        android:layout_width="wrap_content"
+        android:layout_height="163dp"
+        android:background="@color/Blue"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <View
+        android:id="@+id/view2"
+        android:layout_width="wrap_content"
+        android:layout_height="119dp"
+        android:layout_marginTop="144dp"
+        android:background="@drawable/ic_wave"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/email_login"
+        android:layout_width="223dp"
+        android:layout_height="53dp"
+        android:layout_marginTop="116dp"
+        android:autofillHints="@string/email1"
+        android:hint="@string/email1"
+        android:inputType="textEmailAddress"
+        android:textColorHint="#546E7A"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/view1" />
+
+    <EditText
+        android:id="@+id/password_login"
+        android:layout_width="223dp"
+        android:layout_height="53dp"
+        android:layout_marginTop="48dp"
+        android:autofillHints="@string/email1"
+        android:hint="@string/password1"
+        android:inputType="textPassword"
+        android:textColorHint="#546E7A"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/email_login" />
+
+    <ImageView
+        android:id="@+id/personImage"
+        android:layout_width="80dp"
+        android:layout_height="92dp"
+        android:layout_marginTop="16dp"
+        android:contentDescription="@string/profile_content"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/view1"
+        app:srcCompat="@drawable/ic_baseline_person_24" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="214dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="132dp"
+        android:text="Button"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/password_login" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="290dp"
+        android:layout_height="51dp"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="28dp"
+        android:text="@string/profile_register"
+        android:textColor="#F6F4F4"
+        android:textSize="16sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="TextContrastCheck" />
+</android.support.constraint.ConstraintLayout>

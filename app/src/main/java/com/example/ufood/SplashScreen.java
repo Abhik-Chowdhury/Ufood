@@ -27,7 +27,7 @@ public class SplashScreen extends AppCompatActivity {
                 | View.SYSTEM_UI_FLAG_LAYOUT_HIDE_NAVIGATION
         );
         new Handler().postDelayed(() -> {
-            Intent intent = new Intent(SplashScreen.this, MainActivity.class);
+            Intent intent = new Intent(SplashScreen.this, Login_page.class);
             startActivity(intent);
             finish();
         }, 4000);

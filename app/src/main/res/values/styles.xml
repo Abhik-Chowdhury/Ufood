@@ -1,3 +1,9 @@
 <resources>
-
+   <string name="email1">Email</string>
+   <string name="password1">Password</string>
+   <string name="profile_content">Profile</string>
+   <string name="profile_register">Not have account still now? Register Here</string>
+   <string name="main_pageInfo1">Welcome To</string>
+   <string name="main_pageInfo2">Free Food</string>
+   <string name="main_pageInfo3">Help the needful human through food </string>
 </resources>
