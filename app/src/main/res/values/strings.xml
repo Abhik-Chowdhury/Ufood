@@ -4,4 +4,21 @@
     <string name="unesco_logo">Unesco-Logo</string>
     <string name="foodOffer">Offer Food</string>
     <string name="FindFreeFood">Search Food</string>
+    <string name="b_login">Login</string>
+    <string name="b_register">Register</string>
+
+    <!--    The Registration page-->
+    <string name="Full_name">Full Name</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="c_password">Confirm Password</string>
+    <string name="phone">Phone Number</string>
+    <string name="profile">Profile_pic</string>
+    <string name="user_type">User Type</string>
+    <string name="user_type_list">User Type list</string>
+
+    <string-array name="usertype">
+        <item>User</item>
+        <item>Food-Offer</item>
+    </string-array>
 </resources>
