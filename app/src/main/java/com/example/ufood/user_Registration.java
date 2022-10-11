@@ -32,6 +32,7 @@ public class user_Registration extends AppCompatActivity {
     ImageView profile_pic;
     ImageView add_image;
     Spinner spinner;
+    ArrayList<String> arrayList = new ArrayList<>();
     ProgressBar progressBar;
     EditText Full_name,Email,Phone,Password,Confirm_password;
     Uri uri;
@@ -50,6 +51,11 @@ public class user_Registration extends AppCompatActivity {
 
 
         add_image = findViewById(R.id.add_image);
+        spinner = findViewById(R.id.spinner);
+        arrayList.add("User");
+        arrayList.add("Food-Offer");
+        ArrayAdapter<String> userType = new ArrayAdapter<>(this, androidx.appcompat.R.layout.support_simple_spinner_dropdown_item, arrayList);
+        spinner.setAdapter(userType);
 
          Button Register = findViewById(R.id.register);
          Register.setOnClickListener(view -> {
@@ -102,12 +108,7 @@ public class user_Registration extends AppCompatActivity {
         Phone = findViewById(R.id.Phone);
         Password = findViewById(R.id.password);
         Confirm_password = findViewById(R.id.confirm_password);
-        spinner = findViewById(R.id.spinner);
-        ArrayList<String> arrayList = new ArrayList<>();
-        arrayList.add("User");
-        arrayList.add("Food-Offer");
-        ArrayAdapter<String> userType = new ArrayAdapter<>(this, androidx.appcompat.R.layout.support_simple_spinner_dropdown_item, arrayList);
-        spinner.setAdapter(userType);
+
         spinner.setOnItemSelectedListener(new AdapterView.OnItemSelectedListener() {
             @Override
             public void onItemSelected(AdapterView<?> parent, View view, int position, long id) {
@@ -124,13 +125,14 @@ public class user_Registration extends AppCompatActivity {
                 .addOnSuccessListener(taskSnapshot -> Fileref.getDownloadUrl().addOnSuccessListener(uri1 -> {
                     UserHolder userHolder = new UserHolder(Full_name.getText().toString(),Email.getText().toString(),Phone.getText().toString(),Password.getText().toString(), uri1.toString(), spinner.getSelectedItem().toString());
                     String userId = databaseReference.push().getKey();
-                    if(spinner.getSelectedItem().toString().equals("User")){
+                    String type = spinner.getSelectedItem().toString();
+                    if(type.equals("User")){
                         assert userId != null;
                         databaseReference.child("user").child(userId).setValue(userHolder);
                     progressBar.setVisibility(View.INVISIBLE);
                     Toast.makeText(user_Registration.this, "Success", Toast.LENGTH_SHORT).show();
                      }
-                    else if(spinner.getSelectedItem().toString().equals("Food-Offer")){
+                    else if(type.equals("Food-Offer")){
                         assert userId != null;
                         databaseReference.child("food-offer").child(userId).setValue(userHolder);
                         progressBar.setVisibility(View.INVISIBLE);
