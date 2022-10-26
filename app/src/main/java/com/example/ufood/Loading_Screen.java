@@ -21,7 +21,7 @@ public class Loading_Screen extends AppCompatActivity {
 
 
         new Handler().postDelayed(() -> {
-            Intent intent = new Intent(Loading_Screen.this,MainActivity.class);
+            Intent intent = new Intent(Loading_Screen.this,Login_page.class);
             startActivity(intent);
             finish();
         },4000);

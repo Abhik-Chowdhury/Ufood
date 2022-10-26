@@ -13,12 +13,15 @@
     <string name="password">Password</string>
     <string name="c_password">Confirm Password</string>
     <string name="phone">Phone Number</string>
+    <string name="phoneUser">Phone Number</string>
     <string name="profile">Profile_pic</string>
     <string name="user_type">User Type</string>
     <string name="user_type_list">User Type list</string>
+    <string name="userprofile">Profile</string>
 
     <string-array name="usertype">
         <item>User</item>
         <item>Food-Offer</item>
     </string-array>
+    <string name="update">Update Details</string>
 </resources>

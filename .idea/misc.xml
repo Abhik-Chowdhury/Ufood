@@ -16,6 +16,7 @@
         <entry key="app/src/main/res/drawable/ic_wave.xml" value="0.153" />
         <entry key="app/src/main/res/drawable/profile_image.xml" value="0.153" />
         <entry key="app/src/main/res/drawable/profileimage.xml" value="0.153" />
+        <entry key="app/src/main/res/drawable/progress.xml" value="0.169" />
         <entry key="app/src/main/res/drawable/splash_bg.xml" value="0.153" />
         <entry key="app/src/main/res/drawable/splash_logo.xml" value="0.153" />
         <entry key="app/src/main/res/layout-v21/activity_registraion.xml" value="0.1" />
@@ -25,6 +26,7 @@
         <entry key="app/src/main/res/layout/activity_registraion.xml" value="0.17119565217391305" />
         <entry key="app/src/main/res/layout/activity_registration.xml" value="0.17119565217391305" />
         <entry key="app/src/main/res/layout/activity_splash_screen.xml" value="0.22" />
+        <entry key="app/src/main/res/layout/activity_user_profile.xml" value="0.19270833333333334" />
         <entry key="app/src/main/res/layout/activity_user_registration.xml" value="0.17119565217391305" />
         <entry key="app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.153" />
       </map>

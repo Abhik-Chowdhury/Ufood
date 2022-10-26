@@ -6,4 +6,18 @@
    <string name="main_pageInfo1">Welcome To</string>
    <string name="main_pageInfo2">Free Food</string>
    <string name="main_pageInfo3">Help the needful human through food </string>
+
+   <style name="TextAppearance.AppTheme.TextInputLayout.HintTextAlt" parent="TextAppearance.MaterialComponents.Subtitle2">
+      <item name="android:textColor">@color/Blue</item>
+   </style>
+
+   <style name="Widget.AppTheme.TextInputLayoutList" parent="Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+      <item name="hintTextAppearance">@style/TextAppearance.AppTheme.TextInputLayout.HintTextAlt</item>
+      <item name="boxStrokeColor">@color/Blue</item>
+      <item name="boxCornerRadiusBottomEnd">5dp</item>
+      <item name="boxCornerRadiusBottomStart">5dp</item>
+      <item name="boxCornerRadiusTopEnd">5dp</item>
+      <item name="boxCornerRadiusTopStart">5dp</item>
+      <item name="android:layout_margin">5dp</item>
+   </style>
 </resources>

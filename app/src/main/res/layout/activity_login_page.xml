@@ -32,26 +32,31 @@
         android:layout_width="223dp"
         android:layout_height="53dp"
         android:layout_marginTop="116dp"
-        android:autofillHints="@string/email1"
         android:hint="@string/email1"
+        android:drawablePadding="10dp"
+        android:drawableStart="@drawable/ic_email"
         android:inputType="textEmailAddress"
         android:textColorHint="#546E7A"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/view1" />
+        app:layout_constraintTop_toBottomOf="@+id/view1"
+        android:importantForAutofill="no" />
 
     <EditText
         android:id="@+id/password_login"
         android:layout_width="223dp"
         android:layout_height="53dp"
         android:layout_marginTop="48dp"
-        android:autofillHints="@string/email1"
         android:hint="@string/password1"
+        android:drawablePadding="10dp"
+        android:drawableStart="@drawable/ic_key"
+        android:drawableEnd="@drawable/ic_visibility_of"
         android:inputType="textPassword"
         android:textColorHint="#546E7A"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/email_login" />
+        app:layout_constraintTop_toBottomOf="@+id/email_login"
+        android:importantForAutofill="no" />
 
     <ImageView
         android:id="@+id/personImage"
@@ -91,4 +96,29 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         tools:ignore="TextContrastCheck" />
+
+    <Spinner
+        android:id="@+id/spinner2"
+        android:layout_width="166dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="48dp"
+        android:layout_marginEnd="32dp"
+        android:contentDescription="@string/user_type_list"
+        android:minHeight="48dp"
+        app:layout_constraintBottom_toTopOf="@+id/login"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/password_login"
+        app:layout_constraintVertical_bias="0.138" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="112dp"
+        android:layout_height="37dp"
+        android:layout_marginTop="64dp"
+        android:gravity="center_horizontal|center_vertical"
+        android:text="@string/user_type"
+        app:layout_constraintEnd_toStartOf="@+id/spinner2"
+        app:layout_constraintHorizontal_bias="0.435"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/password_login" />
 </androidx.constraintlayout.widget.ConstraintLayout>

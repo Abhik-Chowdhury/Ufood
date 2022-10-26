@@ -11,12 +11,13 @@ public class UserHolder {
 
     }
 
-    public UserHolder(String user_name, String email, String phone, String password, String profile_pic, String user_type) {
+    public UserHolder(String user_name, String email, String phone, String password,String profile_pic, String user_type) {
         this.user_name = user_name;
         this.email = email;
         this.phone = phone;
         this.password = password;
         this.profile_pic = profile_pic;
+        this.user_type = user_type;
     }
 
     public String getUser_name() {
