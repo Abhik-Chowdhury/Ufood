@@ -5,6 +5,7 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.widget.Button;
 import android.widget.ImageView;
+import android.widget.Toast;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -30,6 +31,17 @@ public class MainActivity extends AppCompatActivity {
             intent2.putExtra(ProfileType,ProfileType0);
             startActivity(intent2);
 
+        });
+        offer_food.setOnClickListener(view -> {
+            if(ProfileType0.equals("Food-Offer")){
+                Intent intent1 = new Intent(MainActivity.this,OfferFoodActivity.class);
+                intent1.putExtra(ProfileType,ProfileType0);
+                startActivity(intent1);
+                finish();
+            }
+            else{
+                Toast.makeText(this, "Sorry You need offer Food Account To use it", Toast.LENGTH_SHORT).show();
+            }
         });
 
     }

@@ -8,8 +8,10 @@
         <entry key="app/src/main/res/drawable/button_design.xml" value="0.153" />
         <entry key="app/src/main/res/drawable/button_offer_find.xml" value="0.153" />
         <entry key="app/src/main/res/drawable/gradient01.xml" value="0.153" />
+        <entry key="app/src/main/res/drawable/ic_add_circle.xml" value="0.17" />
         <entry key="app/src/main/res/drawable/ic_baseline_person_24.xml" value="0.153" />
         <entry key="app/src/main/res/drawable/ic_baseline_person_black.xml" value="0.153" />
+        <entry key="app/src/main/res/drawable/ic_close.xml" value="0.17" />
         <entry key="app/src/main/res/drawable/ic_launcher_background.xml" value="0.153" />
         <entry key="app/src/main/res/drawable/ic_launcher_foreground.xml" value="0.153" />
         <entry key="app/src/main/res/drawable/ic_photo_camera.xml" value="0.153" />
@@ -19,15 +21,19 @@
         <entry key="app/src/main/res/drawable/progress.xml" value="0.169" />
         <entry key="app/src/main/res/drawable/splash_bg.xml" value="0.153" />
         <entry key="app/src/main/res/drawable/splash_logo.xml" value="0.153" />
+        <entry key="app/src/main/res/layout-v21/activity_offer_food.xml" value="0.25" />
         <entry key="app/src/main/res/layout-v21/activity_registraion.xml" value="0.1" />
         <entry key="app/src/main/res/layout/activity_loading_screen.xml" value="0.19270833333333334" />
         <entry key="app/src/main/res/layout/activity_login_page.xml" value="0.25" />
         <entry key="app/src/main/res/layout/activity_main.xml" value="0.196875" />
+        <entry key="app/src/main/res/layout/activity_offer_food.xml" value="0.25" />
         <entry key="app/src/main/res/layout/activity_registraion.xml" value="0.17119565217391305" />
         <entry key="app/src/main/res/layout/activity_registration.xml" value="0.17119565217391305" />
         <entry key="app/src/main/res/layout/activity_splash_screen.xml" value="0.22" />
         <entry key="app/src/main/res/layout/activity_user_profile.xml" value="0.19270833333333334" />
         <entry key="app/src/main/res/layout/activity_user_registration.xml" value="0.17119565217391305" />
+        <entry key="app/src/main/res/layout/dialog_input.xml" value="0.1458581054300436" />
+        <entry key="app/src/main/res/layout/item.xml" value="0.19166666666666668" />
         <entry key="app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.153" />
       </map>
     </option>

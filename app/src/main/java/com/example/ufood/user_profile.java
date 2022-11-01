@@ -19,6 +19,9 @@ import com.google.firebase.database.FirebaseDatabase;
 import com.google.firebase.database.ValueEventListener;
 import com.squareup.picasso.Picasso;
 
+import com.example.ufood.Model.CircleTransform;
+import com.example.ufood.Model.UserHolder;
+
 public class user_profile extends AppCompatActivity {
     EditText username,userEmail,userPhone,userPassword,userType;
     ImageView userPhoto;

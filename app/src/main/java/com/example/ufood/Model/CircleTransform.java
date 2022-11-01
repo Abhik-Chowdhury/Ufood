@@ -1,4 +1,4 @@
-package com.example.ufood;
+package com.example.ufood.Model;
 
 import android.graphics.Bitmap;
 import android.graphics.BitmapShader;

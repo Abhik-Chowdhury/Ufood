@@ -28,6 +28,9 @@ import com.squareup.picasso.Picasso;
 import java.util.ArrayList;
 import java.util.Objects;
 
+import com.example.ufood.Model.CircleTransform;
+import com.example.ufood.Model.UserHolder;
+
 
 public class user_Registration extends AppCompatActivity {
     ImageView profile_pic;

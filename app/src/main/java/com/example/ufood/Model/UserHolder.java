@@ -1,4 +1,4 @@
-package com.example.ufood;
+package com.example.ufood.Model;
 
 public class UserHolder {
     public String user_name;
